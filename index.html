@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuna0416 - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+            color: #666;
+        }
+        
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 10px;
+        }
+        
+        .job, .education, .project {
+            margin-bottom: 20px;
+        }
+        
+        .job-title, .degree, .project-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1em;
+        }
+        
+        .company, .school, .date {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .date {
+            float: right;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .contact-info {
+                gap: 15px;
+                font-size: 0.85em;
+            }
+            
+            .date {
+                float: none;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yuna0416</h1>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></span>
+                <span>💼 <a href="https://github.com/Yuna0416">GitHub</a></span>
+                <span>🔗 <a href="https://linkedin.com">LinkedIn</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Replace this with your professional summary. Highlight your key skills, experience, and career goals in 2-3 sentences.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="job">
+                <div>
+                    <span class="job-title">Job Title</span>
+                    <span class="date">Month Year - Present</span>
+                </div>
+                <div class="company">Company Name</div>
+                <ul>
+                    <li>Achievement or responsibility 1</li>
+                    <li>Achievement or responsibility 2</li>
+                    <li>Achievement or responsibility 3</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div>
+                    <span class="job-title">Previous Job Title</span>
+                    <span class="date">Month Year - Month Year</span>
+                </div>
+                <div class="company">Previous Company Name</div>
+                <ul>
+                    <li>Achievement or responsibility 1</li>
+                    <li>Achievement or responsibility 2</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div>
+                    <span class="degree">Degree Name</span>
+                    <span class="date">Graduation Year</span>
+                </div>
+                <div class="school">University Name</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Skill 1</span>
+                <span class="skill">Skill 2</span>
+                <span class="skill">Skill 3</span>
+                <span class="skill">Skill 4</span>
+                <span class="skill">Skill 5</span>
+                <span class="skill">Skill 6</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <span class="project-title">Project Name</span>
+                <p>Brief description of the project and your role in it. Include links if applicable.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
